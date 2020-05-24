@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(photo-1514125669375-59ee3985d08b.jpg);
+  position: relative;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+}
+h2 {
+  font-size: 50px;
+}
+.pozadi {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 250px;
+  top: 50px;
+
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.formular {
+  text-align: center;
+  height: 100%;
+}
+
+input {
+  border: solid 1px coral;
+}
+
+.vysledek {
+  text-align: center;
+  margin-top: 30px;
+  width: 800px;
+}
+
+#btn {
+  margin-top: 30px;
+  background-color: coral;
+  height: 35px;
+  width: 80px;
+  font-weight: 600;
+}
